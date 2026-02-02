@@ -219,7 +219,7 @@ If a user updated the Hours column, then the project no., the user name that
 made that update, the date of the modification, and the value of the old and the 
 new Hours will be inserted into the Audit table  
 Note: This process will take place only if the user updated the Hours column*/
-
+ use Company_SD
 create table History(
 
 ProjectNo  int,
